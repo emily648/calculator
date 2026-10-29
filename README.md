@@ -10,4 +10,9 @@ Run: python3 calculator.py
 Enter first number, operator (+ - * /), then second number.
 The program prints Result: followed by the answer.
 
+Run: python3
+in terminal -> ./run.sh
+stop with ctrl+c
+
+
 
