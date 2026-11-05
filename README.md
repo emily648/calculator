@@ -14,5 +14,16 @@ Run: python3
 in terminal -> ./run.sh
 stop with ctrl+c
 
+## Testing
+python3
+activate SCCM4910 virtual environment -> 
+source /opt/python-venv/sccm-4910/bin/activate
+python3 -m pytest --version
 
+file: test_calculator.py
+in terminal -> python3 -m pytest -v OR ./check.sh 
+then: echo $?
 
+expected 5 test results of:
+test_add, test_divide, test_subtract, test_multiply, test_divide_uneven
+PASSED and exit status (from echo $?) of 0 meaning no failed tests
